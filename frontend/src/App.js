@@ -1,11 +1,12 @@
 import React from "react";
-import Logon from './pages/Logon';
-import './global.css';
+import AppRoutes from "./routes";
+import "./global.css";
 
 function App() {
-
   return (
-    <Logon/>
+    <div className="App">
+      <AppRoutes />
+    </div>
   );
 }
 
