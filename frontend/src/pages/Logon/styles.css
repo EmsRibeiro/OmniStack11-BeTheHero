@@ -1,5 +1,3 @@
-
-
 /*Class*/
 .logon-container {
   width: 100%;
@@ -8,7 +6,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center; /*alinha ao centro verticalmente automaticamente*/
-  justify-content: center; /*alinha tbm so que horizontal*/
+  justify-content: space-between; /*alinha tbm so que horizontal*/
 }
 
 .logon-container section.form {
